@@ -1,7 +1,7 @@
 networkx==2.8.4
 h5py==3.7.0
 matplotlib==3.5.2
-numpy==1.23.0
+numpy>=1.23.0
 pillow
 pyyaml
 utm==0.7.0
