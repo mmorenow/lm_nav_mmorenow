@@ -79,7 +79,7 @@ def text_to_landmarks_gpt3(text: str, simple_prompt: bool = False) -> List[str]:
     return generic_language_model_api_call(
         "https://api.openai.com/v1",
         os.getenv("OPENAI_API_KEY"),
-        "text-davinci-002",
+        "gpt-3.5-turbo-instruct",
         text,
         simple_prompt = simple_prompt,
     )
